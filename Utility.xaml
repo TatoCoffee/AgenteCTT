@@ -146,7 +146,7 @@
 							<RowDefinition Height="6*"/>
 						</Grid.RowDefinitions>
 						<StackPanel Background="#777777" Orientation="Horizontal" Grid.Row="0" HorizontalAlignment="Center" Grid.ColumnSpan="2">
-							<Label Content="Recommended Selections:" FontSize="17" VerticalAlignment="Center"/>
+							<Label Content="Seleccion Recomendada:" FontSize="17" VerticalAlignment="Center"/>
 							<Button Name="desktop" Content="Desktop" Margin="7"/>
 							<Button Name="laptop" Content="Laptop" Margin="7"/>
 							<Button Name="minimal" Content="Minimal" Margin="7"/>
@@ -168,18 +168,18 @@
 
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="1" Grid.Column="1" Margin="10,5">
-							<Label FontSize="16" Content="Misc. Tweaks"/>
-							<CheckBox Name="MiscTweaksPower" Content="Disable Power Throttling" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksLapPower" Content="Enable Power Throttling" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksNum" Content="Enable NumLock on Startup" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksLapNum" Content="Disable Numlock on Startup" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksExt" Content="Show File Extensions" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksDisplay" Content="Set Display for Performance" Margin="5,0"/>
-							<CheckBox Name="MiscTweaksUTC" Content="Set Time to UTC (Dual Boot)" Margin="5,0"/>
-							<CheckBox Name="EssTweaksDeBloat" Content="Remove ALL MS Store Apps" Margin="5,0"/>
+							<Label FontSize="16" Content="Varios Retoques"/>
+							<CheckBox Name="MiscTweaksPower" Content="Deshabilitar la limitación de potencia" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksLapPower" Content="Habilitar limitación de potencia" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksNum" Content="Habilitar Bloq Num al inicio" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksLapNum" Content="Deshabilitar Numlock al iniciar" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksExt" Content="Mostrar extensiones de archivo" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksDisplay" Content="Establecer visualización para el rendimiento" Margin="5,0"/>
+							<CheckBox Name="MiscTweaksUTC" Content="Establecer hora en UTC (arranque dual)" Margin="5,0"/>
+							<CheckBox Name="EssTweaksDeBloat" Content="Eliminar TODAS las aplicaciones de MS Store" Margin="5,0"/>
 
-							<Button Name="tweaksbutton" Background="AliceBlue" Content="Run Tweaks" Margin="20,10,20,0"/>
-							<Button Name="undoall" Background="AliceBlue" Content="Undo All Tweaks" Margin="20,5"/>
+							<Button Name="tweaksbutton" Background="AliceBlue" Content="Ejecutar Retoque" Margin="20,10,20,0"/>
+							<Button Name="undoall" Background="AliceBlue" Content="Deshacer todos los ajustes" Margin="20,5"/>
 						</StackPanel>
 					</Grid>
 				</TabItem>
@@ -190,25 +190,25 @@
 							<ColumnDefinition Width="1*"/>
 						</Grid.ColumnDefinitions>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0" Margin="10,5">
-							<Label Content="Features" FontSize="16"/>
+							<Label Content="Caracteristicas" FontSize="16"/>
 							<CheckBox Name="Featuresdotnet" Content="All .Net Framework (2,3,4)" Margin="5,0"/>
 							<CheckBox Name="Featureshyperv" Content="HyperV Virtualization" Margin="5,0"/>
 							<CheckBox Name="Featureslegacymedia" Content="Legacy Media (WMP, DirectPlay)" Margin="5,0"/>
 							<CheckBox Name="Featurenfs" Content="NFS - Network File System" Margin="5,0"/>
 							<CheckBox Name="Featurewsl" Content="Windows Subsystem for Linux" Margin="5,0"/>
-							<Button Name="FeatureInstall" FontSize="14" Background="AliceBlue" Content="Install Features" Margin="20,5,20,0" Padding="10"/>
+							<Button Name="FeatureInstall" FontSize="14" Background="AliceBlue" Content="Instalar Caracteristicas" Margin="20,5,20,0" Padding="10"/>
 							<Label Content="Fixes" FontSize="16"/>
-							<Button Name="FixesUpdate" FontSize="14" Background="AliceBlue" Content="Reset Windows Update" Margin="20,5,20,0" Padding="10"/>
+							<Button Name="FixesUpdate" FontSize="14" Background="AliceBlue" Content="Restablecer actualización de Windows" Margin="20,5,20,0" Padding="10"/>
 
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="1" Margin="10,5">
 							<Label Content="Legacy Windows Panels" FontSize="16"/>
-							<Button Name="Panelcontrol" FontSize="14" Background="AliceBlue" Content="Control Panel" Margin="20,5,20,5" Padding="10"/>
-							<Button Name="Panelnetwork" FontSize="14" Background="AliceBlue" Content="Network Connections" Margin="20,0,20,5" Padding="10"/>
-							<Button Name="Panelpower" FontSize="14" Background="AliceBlue" Content="Power Panel" Margin="20,0,20,5" Padding="10"/>
-							<Button Name="Panelsound" FontSize="14" Background="AliceBlue" Content="Sound Settings" Margin="20,0,20,5" Padding="10"/>
-							<Button Name="Panelsystem" FontSize="14" Background="AliceBlue" Content="System Properties" Margin="20,0,20,5" Padding="10"/>
-							<Button Name="Paneluser" FontSize="14" Background="AliceBlue" Content="User Accounts" Margin="20,0,20,5" Padding="10"/>
+							<Button Name="Panelcontrol" FontSize="14" Background="AliceBlue" Content="Panel de Control" Margin="20,5,20,5" Padding="10"/>
+							<Button Name="Panelnetwork" FontSize="14" Background="AliceBlue" Content="Conexiones de red" Margin="20,0,20,5" Padding="10"/>
+							<Button Name="Panelpower" FontSize="14" Background="AliceBlue" Content="Panel de Energia" Margin="20,0,20,5" Padding="10"/>
+							<Button Name="Panelsound" FontSize="14" Background="AliceBlue" Content="Configuracion de Sonido" Margin="20,0,20,5" Padding="10"/>
+							<Button Name="Panelsystem" FontSize="14" Background="AliceBlue" Content="Propiedades del Sistema" Margin="20,0,20,5" Padding="10"/>
+							<Button Name="Paneluser" FontSize="14" Background="AliceBlue" Content="Cuentas de Usuarios" Margin="20,0,20,5" Padding="10"/>
 						</StackPanel>
 					</Grid>
 				</TabItem>
