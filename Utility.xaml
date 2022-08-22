@@ -29,7 +29,7 @@
 							<ColumnDefinition Width="1*"/>
 						</Grid.ColumnDefinitions>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="0" Margin="10">
-							<Label Content="Browsers" FontSize="16" Margin="5,0"/>
+							<Label Content="Navegadores" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installbrave" Content="Brave" Margin="5,0"/>
 							<CheckBox Name="Installchrome" Content="Google Chrome" Margin="5,0"/>
 							<CheckBox Name="Installchromium" Content="Un-Googled Chromium" Margin="5,0"/>
@@ -37,7 +37,7 @@
 							<CheckBox Name="Installlibrewolf" Content="LibreWolf" Margin="5,0"/>
 							<CheckBox Name="Installvivaldi" Content="Vivaldi" Margin="5,0"/>
 
-							<Label Content="Communications" FontSize="16" Margin="5,0"/>
+							<Label Content="Comunicacion" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installdiscord" Content="Discord" Margin="5,0"/>
 							<CheckBox Name="Installhexchat" Content="Hexchat" Margin="5,0"/>
 							<CheckBox Name="Installmatrix" Content="Matrix" Margin="5,0"/>
@@ -67,26 +67,26 @@
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="1" Margin="10">
 
-							<Label Content="Document" FontSize="16" Margin="5,0"/>
+							<Label Content="SDocumentos" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installadobe" Content="Adobe Reader DC" Margin="5,0"/>
 							<CheckBox Name="Installlibreoffice" Content="LibreOffice" Margin="5,0"/>
 							<CheckBox Name="Installnotepadplus" Content="Notepad++" Margin="5,0"/>
 							<CheckBox Name="Installobsidian" Content="Obsidian" Margin="5,0"/>
 							<CheckBox Name="Installsumatra" Content="Sumatra PDF" Margin="5,0"/>
 
-							<Label Content="Games" FontSize="16" Margin="5,0"/>
+							<Label Content="Juegos" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installepicgames" Content="Epic Games Launcher" Margin="5,0"/>
 							<CheckBox Name="Installgog" Content="GOG Galaxy" Margin="5,0"/>
 							<CheckBox Name="Installsteam" Content="Steam" Margin="5,0"/>
 
-							<Label Content="Pro Tools" FontSize="16" Margin="5,0"/>
+							<Label Content="Herramientas Avanzadas" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installadvancedip" Content="Advanced IP Scanner" Margin="5,0"/>
 							<CheckBox Name="Installmremoteng" Content="mRemoteNG" Margin="5,0"/>
 							<CheckBox Name="Installputty" Content="Putty" Margin="5,0"/>
 							<CheckBox Name="Installscp" Content="WinSCP" Margin="5,0"/>
 							<CheckBox Name="Installwireshark" Content="WireShark" Margin="5,0"/>
 
-							<Label Content="Multimedia Tools" FontSize="16" Margin="5,0"/>
+							<Label Content="Multimedia" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installaudacity" Content="Audacity" Margin="5,0"/>
 							<CheckBox Name="Installblender" Content="Blender (3D Graphics)" Margin="5,0"/>
 							<CheckBox Name="Installeartrumpet" Content="Eartrumpet (Audio)" Margin="5,0"/>
@@ -106,7 +106,7 @@
 
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Column="2" Margin="10">
-							<Label Content="Utilities" FontSize="16" Margin="5,0"/>
+							<Label Content="Utilidades" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installsevenzip" Content="7-Zip" Margin="5,0"/>
 							<CheckBox Name="Installanydesk" Content="AnyDesk" Margin="5,0"/>
 							<CheckBox Name="Installautohotkey" Content="AutoHotkey" Margin="5,0"/>
