@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:WinUtility"
         mc:Ignorable="d"
         Background="#777777"
-        Title="Chris Titus Tech's Windows Utility" Height="533" Width="786">
+        Title="TatoCoffee Windows Utility" Height="533" Width="786">
 	<Viewbox>
-		<Grid Background="#777777" ShowGridLines="False" Name="MainGrid">
+		<Grid Background="#6600FF" ShowGridLines="False" Name="MainGrid">
 			<Grid.ColumnDefinitions>
 				<ColumnDefinition Width="3*"/>
 				<ColumnDefinition Width="7*"/>
