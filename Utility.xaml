@@ -65,7 +65,7 @@
 
 							
 						</StackPanel>
-						<StackPanel Background="#034800" SnapsToDevicePixels="True" Grid.Column="1" Margin="10">
+						<StackPanel Background="#1E5D00" SnapsToDevicePixels="True" Grid.Column="1" Margin="10">
 
 							<Label Content="SDocumentos" FontSize="16" Margin="5,0"/>
 							<CheckBox Name="Installadobe" Content="Adobe Reader DC" Margin="5,0"/>
