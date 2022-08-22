@@ -7,6 +7,12 @@
         mc:Ignorable="d"
         Background="#777777"
         Title="TatoCoffee(JP) Windows Utility" Height="533" Width="786">
+	<TextBlock>
+            &lt;    <!-- Less than symbol -->
+            &gt;    <!-- Greater than symbol -->
+            &amp;   <!-- Ampersand symbol -->
+            &quot;  <!-- Double quote symbol -->
+
 	<Viewbox>
 		<Grid Background="#6600FF" ShowGridLines="False" Name="MainGrid">
 			<Grid.ColumnDefinitions>
@@ -238,4 +244,5 @@
 			</TabControl>
 		</Grid>
 	</Viewbox>
+  </TextBlock>		
 </Window>
