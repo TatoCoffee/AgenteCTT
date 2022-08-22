@@ -6,6 +6,7 @@
     Version 0.0.1
 #>
 
+
 # $inputXML = Get-Content "MainWindow.xaml" #uncomment for development
 $inputXML = (new-object Net.WebClient).DownloadString("https://raw.githubusercontent.com/tatoveins/AgenteCTT/main/Utility.xaml") #uncomment for Production
 
@@ -377,8 +378,15 @@ $WPFinstall.Add_Click({
     If ( $WPFInstallzoom.IsChecked -eq $true ) { 
         $wingetinstall.Add("Zoom.Zoom")
         $WPFInstallzoom.IsChecked = $false
-    }    
-
+    }                
+    If ( $WPFInstallforticlient.IsChecked -eq $true ) { 
+        $wingetinstall.Add("Fortinet.FortiClientVPN")
+        $WPFInstallforticlient.IsChecked = $false
+    } 
+    If ( $WPFInstallopenoffice.IsChecked -eq $true ) { 
+        $wingetinstall.Add("Apache.OpenOffice")
+        $WPFInstallopenoffice.IsChecked = $false
+    } 
     # Install all winget programs in new window
     $wingetinstall.ToArray()
     # Define Output variable
