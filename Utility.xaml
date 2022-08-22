@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WinUtility"
         mc:Ignorable="d"
         Background="#777777"
-        Title="TatoCoffee Windows Utility" Height="533" Width="786">
+        Title="TatoCoffee(JP) Windows Utility" Height="533" Width="786">
 	<Viewbox>
 		<Grid Background="#6600FF" ShowGridLines="False" Name="MainGrid">
 			<Grid.ColumnDefinitions>
@@ -152,18 +152,18 @@
 							<Button Name="minimal" Content="Minimal" Margin="7"/>
 						</StackPanel>
 						<StackPanel Background="#777777" SnapsToDevicePixels="True" Grid.Row="1" Grid.Column="0" Margin="10,5">
-							<Label FontSize="16" Content="Essential Tweaks"/>
-							<CheckBox Name="EssTweaksRP" Content="Create Restore Point" Margin="5,0"/>
-							<CheckBox Name="EssTweaksOO" Content="Run O and O Shutup" Margin="5,0"/>
-							<CheckBox Name="EssTweaksTele" Content="Disable Telemetry" Margin="5,0"/>
-							<CheckBox Name="EssTweaksWifi" Content="Disable Wifi-Sense" Margin="5,0"/>
-							<CheckBox Name="EssTweaksAH" Content="Disable Activity History" Margin="5,0"/>
-							<CheckBox Name="EssTweaksLoc" Content="Disable Location Tracking" Margin="5,0"/>
-							<CheckBox Name="EssTweaksHome" Content="Disable Homegroup" Margin="5,0"/>
-							<CheckBox Name="EssTweaksStorage" Content="Disable Storage Sense" Margin="5,0"/>
-							<CheckBox Name="EssTweaksHiber" Content="Disable Hibernation" Margin="5,0"/>
-							<CheckBox Name="EssTweaksDVR" Content="Disable GameDVR" Margin="5,0"/>
-							<CheckBox Name="EssTweaksServices" Content="Set Services to Manual" Margin="5,0"/>
+							<Label FontSize="16" Content="Retoques Esenciales"/>
+							<CheckBox Name="EssTweaksRP" Content="Crear Punto de Restauracion" Margin="5,0"/>
+							<CheckBox Name="EssTweaksOO" Content="Ejecutar o Detener" Margin="5,0"/>
+							<CheckBox Name="EssTweaksTele" Content="Desactivar Telemetria" Margin="5,0"/>
+							<CheckBox Name="EssTweaksWifi" Content="Deshabilitar Wifi-Sense" Margin="5,0"/>
+							<CheckBox Name="EssTweaksAH" Content="Deshabilitar historial de actividades" Margin="5,0"/>
+							<CheckBox Name="EssTweaksLoc" Content="Desactivar seguimiento de ubicación" Margin="5,0"/>
+							<CheckBox Name="EssTweaksHome" Content="Deshabilitar grupo en el hogar" Margin="5,0"/>
+							<CheckBox Name="EssTweaksStorage" Content="Deshabilitar el sentido de almacenamiento" Margin="5,0"/>
+							<CheckBox Name="EssTweaksHiber" Content="Desactivar Hibernacion" Margin="5,0"/>
+							<CheckBox Name="EssTweaksDVR" Content="Desactivar GameDVR" Margin="5,0"/>
+							<CheckBox Name="EssTweaksServices" Content="Establecer servicios en manual" Margin="5,0"/>
 
 
 						</StackPanel>
