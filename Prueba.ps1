@@ -1,12 +1,4 @@
 
-# Creditoss
-.NOTES
-   Author      : Chris Titus @christitustech
-   GitHub      : https://github.com/ChrisTitusTech
-    Version 0.0.1
-#>
-
-
 # $inputXML = Get-Content "MainWindow.xaml" #uncomment for development
 $inputXML = (new-object Net.WebClient).DownloadString("https://raw.githubusercontent.com/tatoveins/AgenteCTT/main/Utility.xaml") #uncomment for Production
 
