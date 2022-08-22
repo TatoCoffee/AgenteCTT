@@ -15,10 +15,10 @@
 			</Grid.ColumnDefinitions>
 			<StackPanel Background="#000000" SnapsToDevicePixels="True" Grid.Column="0">
 				<Image Height="200" Width="200" Name="Icon" SnapsToDevicePixels="True" Source="https://blog.endeos.com/wp-content/uploads/2021/02/helpdesk-vs-servicedesk.jpg" Margin="0,10,0,10"/>
-				<Button Content="Instalar" VerticalAlignment="Top" Height="40" Background="#222222" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab1BT"/>
-				<Button Content="Retoques" VerticalAlignment="Top" Height="40" Background="#333333" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab2BT"/>
-				<Button Content="Config" VerticalAlignment="Top" Height="40" Background="#444444" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab3BT"/>
-				<Button Content="Actualizaciones" VerticalAlignment="Top" Height="40" Background="#555555" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab4BT"/>
+				<Button Content="Instalar" VerticalAlignment="Top" Height="40" Background="#767676" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab1BT"/>
+				<Button Content="Retoques" VerticalAlignment="Top" Height="40" Background="#767676" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab2BT"/>
+				<Button Content="Config" VerticalAlignment="Top" Height="40" Background="#767676" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab3BT"/>
+				<Button Content="Actualizaciones" VerticalAlignment="Top" Height="40" Background="#767676" BorderThickness="0,0,0,0" FontWeight="Bold" Foreground="#ffffff" Name="Tab4BT"/>
 			</StackPanel>
 			<TabControl Grid.Column="1" Padding="-1" Name="TabNav" SelectedIndex="0">
 				<TabItem Header="Install" Visibility="Collapsed" Name="Tab1">
