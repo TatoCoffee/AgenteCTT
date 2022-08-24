@@ -379,6 +379,10 @@ $WPFinstall.Add_Click({
         $wingetinstall.Add("Apache.OpenOffice")
         $WPFInstallopenoffice.IsChecked = $false
     } 
+    If ( $WPFInstallTightVNC.IsChecked -eq $true ) { 
+        $wingetinstall.Add("GlavSoft.TightVNC")
+        $WPFInstallTightVNC.IsChecked = $false
+    } 
     # Install all winget programs in new window
     $wingetinstall.ToArray()
     # Define Output variable
