@@ -130,6 +130,7 @@
 							<CheckBox Name="Installtreesize" Content="TreeSize Free" Margin="5,0"/>
 							<CheckBox Name="Installwindirstat" Content="WinDirStat" Margin="5,0"/>
 							<CheckBox Name="Installterminal" Content="Windows Terminal" Margin="5,0"/>
+							<CheckBox Name="InstallTightVNC" Content="TightVNC" Margin="5,0"/>
 							<Button Name="install" Background="AliceBlue" Content="Correr Instlacion" Margin="20,5,20,5" ToolTip="Install all checked programs"/>
 							<Button Name="InstallUpgrade" Background="AliceBlue" Content="Actualizar Instalaciones" Margin="20,5,20,5" ToolTip="Upgrade All Existing Programs on System"/>
 
