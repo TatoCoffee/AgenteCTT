@@ -383,6 +383,10 @@ $WPFinstall.Add_Click({
         $wingetinstall.Add("GlavSoft.TightVNC")
         $WPFInstallTightVNC.IsChecked = $false
     } 
+    If ( $WPFInstallProcessexplorer.IsChecked -eq $true ) { 
+        $wingetinstall.Add("Microsoft.Sysinternals.ProcessExplorer")
+        $WPFInstallProcessexplorer.IsChecked = $false
+    } 
     # Install all winget programs in new window
     $wingetinstall.ToArray()
     # Define Output variable
@@ -612,13 +616,13 @@ $WPFtweaksbutton.Add_Click({
             "XblGameSave"                                  # Xbox Live Game Save Service (Disabling Breaks Xbox Live Games)
             "XboxNetApiSvc"                                # Xbox Live Networking Service (Disabling Breaks Xbox Live Games)
             "XboxGipSvc"                                   # Xbox Accessory Management Service
-             # Hp services
+            
             "HPAppHelperCap"
             "HPDiagsCap"
             "HPNetworkCap"
             "HPSysInfoCap"
             "HpTouchpointAnalyticsService"
-             # Hyper-V services
+    
             "HvHost"
             "vmicguestinterface"
             "vmicheartbeat"
@@ -627,8 +631,7 @@ $WPFtweaksbutton.Add_Click({
             "vmicshutdown"
             "vmictimesync"
             "vmicvmsession"
-             # Services that cannot be disabled
-            #"WdNisSvc"
+            
         )
         
         foreach ($service in $services) {
